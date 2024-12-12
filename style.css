@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0;font-family: Futura, sans-serif;}
+section{width:100%; height: 800px; float: left;}
+
+/* SECTIONS */
+
+/* HERO */
+#hero {
+    background-image: url(images/original-b6f60fd5deb7dd9adf8523503d08acbb.png);
+    background-size: contain;
+    text-align: center;
+    font-size: 50px;
+    color: #ffde90;
+}
+
+.motto{
+	text-align: center;
+	font-size: 25px;
+	color:#ffde90;
+}
+
+
+/* ABOUT */
+#about {
+	background-color: #ffde90;
+}
+
+
+/* CONTENT */
+#content {
+	background: #edba20;
+}
+
+.catalog{
+	display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.catalog-item {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+/* CONTENT */
+#content {
+	background: #edba20;
+}
+
+.catalog{
+	display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.catalog-item {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+/* CONTACT */
+#contact {
+	background-color: #ffde90;
+	height: 650px;
+}
+
+.contact-HB{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.email-form{
+	text-align: center;
+}
+
+
+/* NAV BAR */
+nav {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	background-color: #FEE6B9;
+	padding: 15px;
+}
+
+ul {
+	width: fit-content; 
+	margin: auto; 
+	list-style: none;
+}
+
+ul li{
+	float: left; 
+	margin-right: 30px;
+}
+
+ul li a{
+	color: #e27f24; 
+	text-decoration: none;
+}
+
+
+/* nav{width: 100%;position: fixed; z-index: 1; top: 45px;}
+ul{width: fit-content; margin: auto; list-style: none;}
+ul li{float: left; margin-right: 30px;}
+ul li a{color: azure; text-decoration: none;}
+ul li a hover {text-decoration: underline;}
+h1{color: #330506; text-align: center; marigin-top: 150px;} */
+
+/* FOOTER */
+.footer {
+	position: relative;
+	top: 20px;
+	bottom: 0px;
+	left: 0px;
+	height: 0px;
+	width: 100%;
+	text-align: center;
+}
+
